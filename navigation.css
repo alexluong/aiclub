@@ -51,6 +51,38 @@
 	background-color: #eee;
 }
 
+.seperator {
+	width: 100%;
+	background-color: #920C05;
+	height: 3px;
+}
+
+footer {
+	background-color: #f3f1e9;
+	min-height: 100px;
+}
+
+.social, .social-icon {
+	display: inline;
+	width: 60px;
+	height: 60px;
+	font-size: 31px;
+	line-height: 60px;
+/*	border: 1px solid;
+	border-radius: 100%;
+*/}
+
+.twitter: {
+	color: #55acee !important;
+	background-color: #55acee !important;
+	border-color    : #55acee;
+}
+
+.facebook: {
+	background-color: #3b5998;
+	border-color    : #3b5998;
+}
+
 @media screen and (max-width: 1023px) {
 	.navbar > .container {
     max-width: 850px;
