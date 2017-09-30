@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AI Club</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="navigation.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+	<!-- Navbar -->
+	<nav class="navbar" role="navigation" aria-label="main navigation">
+  	<div class="container">
+  		<div class="navbar-brand">
+  			<img src="ua-square-logo.png" alt="UA Logo">
+    		<p class="logo navbar-item is-hidden-mobile">Artificial Intelligence & Machine Learning Club</p>
+    		<p class="logo navbar-item is-hidden-tablet">AI & ML Club</p>
+    		<button class="button navbar-burger is-hidden-tablet">
+  				<span></span><span></span><span></span>
+  			</button>
+  		</div>
+
+  		<div class="navbar-menu">
+  			<div class="navbar-end is-hidden-tablet">
+			  	<a class="navbar-item"><span class="icon"><i class="fa fa-home"></i></span> Home</a>
+			  	<a class="navbar-item"><span class="icon"><i class="fa fa-info-circle"></i></span> About Us</a>
+				  <a class="navbar-item"><span class="icon"><i class="fa fa-folder-open"></i></span> Resources</a>
+				  <a class="navbar-item"><span class="icon"><i class="fa fa-address-book-o"></i></span> Contact</a>
+				  <a class="navbar-item"><span class="icon"><i class="fa fa-briefcase"></i></span> Projects</a>
+  			</div>
+  		</div>
+  	</div>
+	</nav>
+
+	<div class="container">
+		<div class="columns">
+
+			<!-- Sidebar Menu -->
+			<div class="column section is-3 is-hidden-mobile">
+				<aside class="menu">
+			  	<p class="menu-label">General</p>
+			  	<ul class="menu-list">
+			  	  <li><a href="index.html"><span class="icon is-small"><i class="fa fa-home"></i></span> Home</a></li>
+			  	  <li><a href="about.html"><span class="icon is-small"><i class="fa fa-info-circle"></i></span> About Us</a></li>
+			  	  <li><a><span class="icon is-small"><i class="fa fa-folder-open"></i></span> Resources</a></li>
+			 	  	<li><a><span class="icon is-small"><i class="fa fa-address-book-o"></i></span> Contact</a></li>
+			  	</ul>
+			  	<p class="menu-label">Projects</p>
+			  	<ul class="menu-list">
+				  	<li><a><span class="icon is-small"><i class="fa fa-briefcase"></i></span> Projects</a></li>
+				    <li id="dropdown" class="dropdown">
+    	  			<a id="trigger" aria-haspopup="true" aria-controls="dropdown-menu">
+    	  				<span class="icon is-small"><i class="fa fa-files-o"></i></span>
+    	  				<span> Lists</span>
+    	  				<span class="icon is-small"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+    	  			</a>
+    	  			<ul class="dropdown-menu" id="dropdown-menu" role="menu">
+    	  				<li><a>Project 1</a></li>
+    	  				<li><a>Project 2</a></li>
+    	  				<li><a>Project 3</a></li>
+    	  			</ul>
+				    </li>
+				  </ul>
+				</aside>
+			</div>
+
+			<!-- Page Content -->
+			<div class="column section">
+
+				<!-- Home -->
+				<!-- <h1 class="title is-3">Home</h1> -->
+				<nav class="breadcrumb is-large" aria-label="breadcrumbs">
+				  <ul>
+				    <li><a class="title is-4" href="index.html">AI & ML Club</a></li>
+				    <li class="is-active">
+				    	<a class="title is-4" href="#" aria-current="page"><span class="icon is-small"><i class="fa fa-home"></i></span> Home</a>
+				    </li>
+				  </ul>
+				</nav>
+				<p>Welcome to the University of Alabama: Artificial Intelligence and Machine Learning [AI/ML] club. Join our growing club and participate in projects that interest you: mathematics, business, finance, science, and art. Interested in something else? Suggest a project. All majors are welcome!</p>
+
+				<hr>
+
+				<!-- Mailing List Form -->
+				<h1 class="title is-4">Fill out the form to add yourself to our mailing list & Stay updated with all the latest information.</h1>
+
+				<div class="columns">
+					<div class="column">
+						<div class="field">
+							<label class="label">First Name</label>
+							<div class="control">
+    						<input class="input" type="text" placeholder="First Name..">
+  						</div>
+  					</div>
+					</div>
+					<div class="column">
+						<div class="field">
+							<label class="label">Last Name</label>
+							<div class="control">
+    						<input class="input" type="text" placeholder="Last Name..">
+  						</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="field">
+					<label class="label">Email</label>
+					<div class="control is-expanded">
+    				<input class="input" type="text" placeholder="Email..">
+  				</div>
+  			</div>
+
+  			<div class="field">
+  				<div class="control">
+  				  <a class="button is-danger is-outlined">Add Me</a>
+  				</div>
+  			</div>
+
+				<hr>
+
+				<!-- Schedule -->
+				<h1 class="title is-3">Schedule</h1>
+				<p>Meeting dates this semester plus suggested schedule - open for edits/ideas! Checkpoints are for everyone to share progress on their projects and talk about their process. What do you think should go in the empty spots? Lessons in new techniques? Casual discussion meetings?</p>
+
+				<br>
+
+				<table class="table is-fullwidth">
+					<thead>
+						<tr>
+							<th class="is-light">Date</th>
+							<th class="is-light">Description</th>
+							<th class="is-light">Ideas</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Sept 18</td>
+							<td>Interest & planning</td>
+							<td>Lorem ipsum dolor.</td>
+						</tr>
+						<tr>
+							<td>Sept 25</td>
+							<td>Set up Python, etc on computers/teach it</td>
+							<td>Lorem ipsum dolor.</td>
+						</tr>
+						<tr>
+							<td>Oct 2</td>
+							<td>Prof. Ames talks about regression & twitter</td>
+							<td>Lorem ipsum dolor.</td>
+						</tr>
+						<tr>
+							<td>Oct 9</td>
+							<td>General Meeting & checkpoint</td>
+							<td>Lorem ipsum dolor.</td>
+						</tr>
+						<tr>
+							<td>Oct 16</td>
+							<td>Current Event, Movie, Project ideas</td>
+							<td>Lorem ipsum dolor.</td>
+						</tr>
+						<tr>
+							<td>Oct 23</td>
+							<td>Prof. Anderson talks about robotics & AI</td>
+							<td>Lorem ipsum dolor.</td>
+						</tr>
+						<tr>
+							<td>Oct 30</td>
+							<td>Do a quick and fun project as a group</td>
+							<td>Lorem ipsum dolor.</td>
+						</tr>
+						<tr>
+							<td>Nov 6</td>
+							<td>General meeting & checkpoint</td>
+							<td>Lorem ipsum dolor.</td>
+						</tr>
+						<tr>
+							<td>Nov 13</td>
+							<td>Current Event, Movie</td>
+							<td>Lorem ipsum dolor.</td>
+						</tr>
+						<tr>
+							<td>Nov 20</td>
+							<td>Prof. Sazonov talks about deep learning & his research</td>
+							<td>Lorem ipsum dolor.</td>
+						</tr>
+						<tr>
+							<td>Nov 27</td>
+							<td>NO SCHOOL !!</td>
+							<td>Lorem ipsum dolor.</td>
+						</tr>
+						<tr>
+							<td>Dec 4 (dead week)</td>
+							<td>General meeting & checkpoint/banquet</td>
+							<td>Lorem ipsum dolor.</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<hr>
+
+				<!-- Propose Event -->
+				<h1 class="title is-3">Proposed Events</h1>
+				<div class="content">
+					<ul>
+						<li>Moneyball screening</li>
+						<li>Ex Machina</li>
+						<li>Blade Runner</li>
+						<li>Her</li>
+						<li>Artificial Intelligence</li>
+						<li>Margin Call</li>
+						<li>The Imitation Game, 21, The Matrix</li>
+						<li>A Beautiful Mind (Best Data Analysis and Machine Learning Movies)</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>
