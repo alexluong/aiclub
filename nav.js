@@ -3,10 +3,10 @@ document.getElementById('nav_placeholder').innerHTML =
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
-      <a id="logo" href="index.html">
-      <img src="ua-square-logo.png" alt="UA Logo">
-      <p class="logo navbar-item is-hidden-mobile">Artificial Intelligence & Machine Learning Club</p>
-      <p class="logo navbar-item is-hidden-tablet">AI & ML Club</p>
+      <a id="logo_link" href="index.html">
+        <img id="logo_img" src="ua-square-logo.png" alt="UA Logo">
+        <p class="logo navbar-item is-hidden-mobile">Artificial Intelligence & Machine Learning Club</p>
+        <p class="logo navbar-item is-hidden-tablet">AI & ML Club</p>
       </a>
       <button class="button navbar-burger is-hidden-tablet">
         <span></span><span></span><span></span>

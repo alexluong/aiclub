@@ -7,12 +7,11 @@
 	color: #fff;
 }
 
-#logo {
+#logo_link {
 	display: flex;
 }
 
-.navbar-brand img {
-	vertical-align: middle;
+#logo_img {
 	width : 60px;
 	height: 60px;
 	margin: auto 0 auto 15px;
