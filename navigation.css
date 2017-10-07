@@ -7,7 +7,12 @@
 	color: #fff;
 }
 
-.navbar-brand > img {
+#logo {
+	display: flex;
+}
+
+.navbar-brand img {
+	vertical-align: middle;
 	width : 60px;
 	height: 60px;
 	margin: auto 0 auto 15px;
@@ -18,7 +23,7 @@
 }
 
 .navbar-brand .navbar-item:hover {
-	cursor: default;
+	/*cursor: default;*/
 }
 
 .navbar-brand p {
